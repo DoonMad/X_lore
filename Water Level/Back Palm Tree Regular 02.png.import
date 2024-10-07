@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dmmk3p3km0vt5"
-path="res://.godot/imported/Back Palm Tree Regular 01.png-6b8bbdadb7a8bf812c934d6d3022bb7b.ctex"
+uid="uid://cr33pcnaidqw0"
+path="res://.godot/imported/Back Palm Tree Regular 02.png-55ad5c6b89045b32eb820731412165c1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Back Palm Tree Regular 01.png"
-dest_files=["res://.godot/imported/Back Palm Tree Regular 01.png-6b8bbdadb7a8bf812c934d6d3022bb7b.ctex"]
+source_file="res://Water Level/Back Palm Tree Regular 02.png"
+dest_files=["res://.godot/imported/Back Palm Tree Regular 02.png-55ad5c6b89045b32eb820731412165c1.ctex"]
 
 [params]
 

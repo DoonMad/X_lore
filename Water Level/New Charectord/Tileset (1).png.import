@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ddpuxx1wvx6jc"
-path="res://.godot/imported/Water Reflect Small 01.png-9ff81a11139a7d1aa326a008351bb6fe.ctex"
+uid="uid://dgdq27cte6txd"
+path="res://.godot/imported/Tileset (1).png-a97dd773504e5f47eb929bf8ebeacd80.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Water Reflect Small 01.png"
-dest_files=["res://.godot/imported/Water Reflect Small 01.png-9ff81a11139a7d1aa326a008351bb6fe.ctex"]
+source_file="res://Water Level/New Charectord/Tileset (1).png"
+dest_files=["res://.godot/imported/Tileset (1).png-a97dd773504e5f47eb929bf8ebeacd80.ctex"]
 
 [params]
 

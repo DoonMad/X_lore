@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://brunyg07r60ur"
-path="res://.godot/imported/Run.png-248b193dd7b5df2570288eeac7f3afa1.ctex"
+uid="uid://ddpuxx1wvx6jc"
+path="res://.godot/imported/Water Reflect Small 01.png-64e5fde5bbb6aed3a59767f655928295.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://New Charectord/Run.png"
-dest_files=["res://.godot/imported/Run.png-248b193dd7b5df2570288eeac7f3afa1.ctex"]
+source_file="res://Water Level/Water Reflect Small 01.png"
+dest_files=["res://.godot/imported/Water Reflect Small 01.png-64e5fde5bbb6aed3a59767f655928295.ctex"]
 
 [params]
 

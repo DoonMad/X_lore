@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://beok6gdlpolnl"
-path="res://.godot/imported/Small Cloud 1.png-aa47adfab44a0b4b1301ba5a0236a099.ctex"
+path="res://.godot/imported/Small Cloud 1.png-d3477fac460b84e851b8deeedf151d0d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Small Cloud 1.png"
-dest_files=["res://.godot/imported/Small Cloud 1.png-aa47adfab44a0b4b1301ba5a0236a099.ctex"]
+source_file="res://Water Level/Small Cloud 1.png"
+dest_files=["res://.godot/imported/Small Cloud 1.png-d3477fac460b84e851b8deeedf151d0d.ctex"]
 
 [params]
 

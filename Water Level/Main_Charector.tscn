@@ -1,11 +1,11 @@
 [gd_scene load_steps=29 format=3 uid="uid://blc171jekvpkn"]
 
-[ext_resource type="Script" path="res://main_charector.gd" id="1_coeym"]
-[ext_resource type="Texture2D" uid="uid://6u1mcje8fm41" path="res://Run (32x32).png" id="2_l0p45"]
-[ext_resource type="Texture2D" uid="uid://c5v74kp7o6pfn" path="res://Idle (32x32).png" id="3_wyncl"]
+[ext_resource type="Script" path="res://Water Level/main_charector.gd" id="1_coeym"]
+[ext_resource type="Texture2D" uid="uid://6u1mcje8fm41" path="res://Water Level/Run (32x32).png" id="2_l0p45"]
+[ext_resource type="Texture2D" uid="uid://c5v74kp7o6pfn" path="res://Water Level/Idle (32x32).png" id="3_wyncl"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ryb6e"]
-size = Vector2(7.93201, 22.6629)
+size = Vector2(7.93201, 15.0142)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6sbn2"]
 atlas = ExtResource("2_l0p45")
@@ -188,12 +188,13 @@ scale = Vector2(3.53, 3.53)
 script = ExtResource("1_coeym")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-0.283286, 1.41643)
+position = Vector2(-0.283286, 0.991507)
 shape = SubResource("RectangleShape2D_ryb6e")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
-position = Vector2(0, -3.68272)
+position = Vector2(-0.283287, -9.53674e-07)
+scale = Vector2(0.526558, 0.659348)
 sprite_frames = SubResource("SpriteFrames_mvhi1")
 animation = &"Running"
 autoplay = "default"

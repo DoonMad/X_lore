@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bifpk6jwwacn1"
-path="res://.godot/imported/Additional Water.png-d309aff1b6ec26a7aa66d8fdeb14a45f.ctex"
+uid="uid://dlny6k83xgxiv"
+path="res://.godot/imported/icon.svg-1a94bcfca8bf3c32ca17931ae7a71ff3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Additional Water.png"
-dest_files=["res://.godot/imported/Additional Water.png-d309aff1b6ec26a7aa66d8fdeb14a45f.ctex"]
+source_file="res://Water Level/icon.svg"
+dest_files=["res://.godot/imported/icon.svg-1a94bcfca8bf3c32ca17931ae7a71ff3.ctex"]
 
 [params]
 
@@ -32,3 +32,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

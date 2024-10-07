@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://40sm615y2f5v"
-path="res://.godot/imported/Water Reflect Medium 02.png-a6abf67e2ab891caf24023666568b14a.ctex"
+uid="uid://c5v74kp7o6pfn"
+path="res://.godot/imported/Idle (32x32).png-062d9e2c4ab950c1e45e88cfc29f4a63.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Water Reflect Medium 02.png"
-dest_files=["res://.godot/imported/Water Reflect Medium 02.png-a6abf67e2ab891caf24023666568b14a.ctex"]
+source_file="res://Water Level/Idle (32x32).png"
+dest_files=["res://.godot/imported/Idle (32x32).png-062d9e2c4ab950c1e45e88cfc29f4a63.ctex"]
 
 [params]
 

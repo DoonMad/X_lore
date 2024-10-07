@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://t4xa5wpii6pm"
-path="res://.godot/imported/Idle.png-d99caf16896008cb5bc0efcbc225be96.ctex"
+uid="uid://cpri7s0fcrqpy"
+path="res://.godot/imported/Terrain (16x16).png-ef400a008e6774e6ba789d378cda0f11.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://New Charectord/Idle.png"
-dest_files=["res://.godot/imported/Idle.png-d99caf16896008cb5bc0efcbc225be96.ctex"]
+source_file="res://Water Level/Terrain (16x16).png"
+dest_files=["res://.godot/imported/Terrain (16x16).png-ef400a008e6774e6ba789d378cda0f11.ctex"]
 
 [params]
 

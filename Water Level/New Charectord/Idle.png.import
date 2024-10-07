@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dgdq27cte6txd"
-path="res://.godot/imported/Tileset (1).png-63643ee91ea06e571fa5b10339b37b9b.ctex"
+uid="uid://t4xa5wpii6pm"
+path="res://.godot/imported/Idle.png-9251ab00c4619799c20d491f7a4c9f64.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://New Charectord/Tileset (1).png"
-dest_files=["res://.godot/imported/Tileset (1).png-63643ee91ea06e571fa5b10339b37b9b.ctex"]
+source_file="res://Water Level/New Charectord/Idle.png"
+dest_files=["res://.godot/imported/Idle.png-9251ab00c4619799c20d491f7a4c9f64.ctex"]
 
 [params]
 
