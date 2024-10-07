@@ -1,0 +1,68 @@
+[gd_scene load_steps=10 format=3 uid="uid://bhifmsy0vgdeb"]
+
+[ext_resource type="Texture2D" uid="uid://d10ktdwmwsayq" path="res://Forest Level/Idle.png" id="1_f0i6h"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_re05x"]
+atlas = ExtResource("1_f0i6h")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5lp26"]
+atlas = ExtResource("1_f0i6h")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2eqv4"]
+atlas = ExtResource("1_f0i6h")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aat5c"]
+atlas = ExtResource("1_f0i6h")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8pwi1"]
+atlas = ExtResource("1_f0i6h")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tj6wg"]
+atlas = ExtResource("1_f0i6h")
+region = Rect2(640, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dslov"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_re05x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5lp26")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2eqv4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aat5c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8pwi1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tj6wg")
+}],
+"loop": true,
+"name": &"default",
+"speed": 20.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ej3ee"]
+radius = 19.0
+height = 96.0
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(106, 495)
+sprite_frames = SubResource("SpriteFrames_dslov")
+frame_progress = 0.348384
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(102, 515)
+shape = SubResource("CapsuleShape2D_ej3ee")

@@ -1,17 +1,17 @@
-[gd_scene load_steps=27 format=4 uid="uid://n27d264j1j60"]
+[gd_scene load_steps=27 format=4 uid="uid://dxmb3hqf78w27"]
 
-[ext_resource type="Texture2D" uid="uid://bg7n8qooii0to" path="res://Water Level/Water.png" id="1_2p7g3"]
-[ext_resource type="Texture2D" uid="uid://djn51wqoomrs3" path="res://Water Level/Terrain (32x32).png" id="2_pwnye"]
-[ext_resource type="Texture2D" uid="uid://cpri7s0fcrqpy" path="res://Water Level/Terrain (16x16).png" id="3_1etrs"]
-[ext_resource type="Texture2D" uid="uid://ddpuxx1wvx6jc" path="res://Water Level/Water Reflect Small 01.png" id="4_cljqt"]
-[ext_resource type="Texture2D" uid="uid://dmmk3p3km0vt5" path="res://Water Level/Back Palm Tree Regular 01.png" id="5_aridq"]
-[ext_resource type="Texture2D" uid="uid://dgdq27cte6txd" path="res://Water Level/New Charectord/Tileset (1).png" id="5_yakbq"]
-[ext_resource type="Texture2D" uid="uid://cr33pcnaidqw0" path="res://Water Level/Back Palm Tree Regular 02.png" id="6_rimff"]
-[ext_resource type="Texture2D" uid="uid://bifpk6jwwacn1" path="res://Water Level/Additional Water.png" id="7_qgamv"]
-[ext_resource type="PackedScene" uid="uid://blc171jekvpkn" path="res://Water Level/Main_Charector.tscn" id="8_cad5t"]
+[ext_resource type="Texture2D" uid="uid://bg7n8qooii0to" path="res://Water Level/Water.png" id="1_2fyp3"]
+[ext_resource type="Texture2D" uid="uid://djn51wqoomrs3" path="res://Water Level/Terrain (32x32).png" id="2_pwx8b"]
+[ext_resource type="Texture2D" uid="uid://cpri7s0fcrqpy" path="res://Water Level/Terrain (16x16).png" id="3_wwpgb"]
+[ext_resource type="Texture2D" uid="uid://ddpuxx1wvx6jc" path="res://Water Level/Water Reflect Small 01.png" id="4_gcp1r"]
+[ext_resource type="Texture2D" uid="uid://dgdq27cte6txd" path="res://Water Level/New Charectord/Tileset (1).png" id="5_tannv"]
+[ext_resource type="Texture2D" uid="uid://dmmk3p3km0vt5" path="res://Water Level/Back Palm Tree Regular 01.png" id="6_btn6i"]
+[ext_resource type="Texture2D" uid="uid://cr33pcnaidqw0" path="res://Water Level/Back Palm Tree Regular 02.png" id="7_h7fc3"]
+[ext_resource type="Texture2D" uid="uid://bifpk6jwwacn1" path="res://Water Level/Additional Water.png" id="8_6h21o"]
+[ext_resource type="PackedScene" uid="uid://blc171jekvpkn" path="res://Main_Charector.tscn" id="9_wftgs"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sbcc7"]
-texture = ExtResource("2_pwnye")
+texture = ExtResource("2_pwx8b")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -248,7 +248,7 @@ texture = ExtResource("2_pwnye")
 33:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8ecbs"]
-texture = ExtResource("3_1etrs")
+texture = ExtResource("3_wwpgb")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -401,10 +401,10 @@ texture = ExtResource("3_1etrs")
 20:10/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lbd7c"]
-texture = ExtResource("4_cljqt")
+texture = ExtResource("4_gcp1r")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dtsg2"]
-texture = ExtResource("5_yakbq")
+texture = ExtResource("5_tannv")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:0/0 = 0
@@ -991,7 +991,7 @@ texture = ExtResource("5_yakbq")
 16:17/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pu553"]
-texture = ExtResource("5_aridq")
+texture = ExtResource("6_btn6i")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -1006,7 +1006,7 @@ texture = ExtResource("5_aridq")
 2:3/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mkoq4"]
-texture = ExtResource("6_rimff")
+texture = ExtResource("7_h7fc3")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -1021,7 +1021,7 @@ texture = ExtResource("6_rimff")
 2:3/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rtp4v"]
-texture = ExtResource("7_qgamv")
+texture = ExtResource("8_6h21o")
 0:0/0 = 0
 1:0/0 = 0
 0:1/0 = 0
@@ -1092,7 +1092,7 @@ offset_right = 1769.0
 offset_bottom = 258.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_2p7g3")
+texture = ExtResource("1_2fyp3")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="TextureRect"]
 physics_interpolation_mode = 1
@@ -1105,18 +1105,18 @@ tile_set = SubResource("TileSet_6mtle")
 [node name="WaterReflectSmall01" type="Sprite2D" parent="TextureRect"]
 position = Vector2(904, 796)
 scale = Vector2(1.2285, 1.87499)
-texture = ExtResource("4_cljqt")
+texture = ExtResource("4_gcp1r")
 
 [node name="WaterReflectSmall02" type="Sprite2D" parent="TextureRect"]
 position = Vector2(650, 679)
 scale = Vector2(0.715054, 0.750003)
-texture = ExtResource("4_cljqt")
+texture = ExtResource("4_gcp1r")
 
 [node name="WaterReflectSmall01" type="Sprite2D" parent="."]
 position = Vector2(649, 687)
-texture = ExtResource("4_cljqt")
+texture = ExtResource("4_gcp1r")
 
-[node name="CharacterBody2D" parent="." instance=ExtResource("8_cad5t")]
+[node name="CharacterBody2D" parent="." instance=ExtResource("9_wftgs")]
 position = Vector2(130, 403)
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
